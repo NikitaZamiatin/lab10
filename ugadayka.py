@@ -33,3 +33,6 @@ for i in range(k):
 
     except ValueError:
         print("Введите целое число!")
+
+print("Попытки закончились")
+logging.info("Игра окончена. Результат: попытки закончились")
